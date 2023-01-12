@@ -11,8 +11,8 @@ const consumer = Consumer.create({
   sqs: new SQSClient({
     region: "us-east-1",
     credentials: {
-      accessKeyId: "AKIAYXL22ZERLO7J4D66",
-      secretAccessKey: "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",
+      accessKeyId: "",
+      secretAccessKey: "",
     },
   }),
   batchSize: 10,
